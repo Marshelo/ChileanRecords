@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT"
+[[mods]] #mandatory
+modId="chilean_records" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Chilean Discs" #mandatory
+# logoFile="chilean_records.png" #optional
+credits="Thanks to my country for having this beautiful records" #optional
+authors="Sheloire" #optional
+description='''
+Adds 3 Music Discs with national records:
+ 1. Chilean Official Anthem.
+ 2. Jaime Atria - La consentida.
+ 3. Los 4 Cuartos - Los Viejos Estandartes.
+'''
+[[dependencies.chilean_records]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.chilean_records]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
