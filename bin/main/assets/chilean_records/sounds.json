@@ -1,0 +1,28 @@
+{
+  "chilean_anthem": {
+    "subtitle": "sounds.chilean_records.playing_chilean_anthem_record",
+    "sounds": [
+      {
+        "name": "chilean_records:chilean_anthem",
+        "stream": true
+      }
+    ]
+  },
+  "la_consentida": {
+    "subtitle": "sounds.chilean_records.playing_la_consentida_record",
+    "sounds": [
+      {
+        "name": "chilean_records:la_consentida",
+        "stream": true
+      }
+    ]
+  },
+  "los_viejos_estandartes": {
+    "sounds": [
+      {
+        "name": "chilean_records:los_viejos_estandartes",
+        "stream": true
+      }
+    ]
+  }
+}
