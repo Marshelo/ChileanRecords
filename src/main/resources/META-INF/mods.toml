@@ -8,6 +8,7 @@ displayName="Chilean Discs" #mandatory
 logoFile="chilean_records.png" #optional
 credits="""
 Thanks to Javitoire for record the demo <3
+Thanks to Xarlord for help me to chose some themes.
 Thanks to my country for having this beautiful records.""" #optional
 authors="Sheloire" #optional
 description='''
