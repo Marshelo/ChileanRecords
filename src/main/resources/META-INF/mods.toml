@@ -12,10 +12,16 @@ Thanks to Xarlord for help me to chose some themes.
 Thanks to my country for having this beautiful records.""" #optional
 authors="Sheloire" #optional
 description='''
-Adds 3 Music Discs with national records:
- 1. Chilean Official Anthem.
- 2. Jaime Atria - La consentida.
- 3. Los 4 Cuartos - Los Viejos Estandartes.
+Adds 9 Music Discs with national records:
+ 1. Chilean National Anthem
+ 2. La Consentida - Jaime Atria
+ 3. Los Viejos Estandartes - Los 4 Cuartos
+ 4. Un Año Más - La Sonora de Tommy Rey
+ 5. Tren al sur - Los Prisioneros
+ 6. Falso Amor - Los Picantes
+ 7. Curao Manejor Mejor - Los Mox
+ 8. La Mejicana - Tata Barahona
+ 9. Mortal Kumbiat - Leo Rey
 '''
 [[dependencies.chilean_records]]
     modId="forge"
