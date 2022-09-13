@@ -7,8 +7,11 @@ version="${file.jarVersion}"
 displayName="Chileam Records"
 logoFile="chilean_records.png"
 credits="""
-Thanks to Javitoire for record the demo <3
-Thanks to my country for having this beautiful records."""
+
+
+ Thanks to Javitoire for record the demo <3
+ Thanks to Xarlord and Lusu for help me with the songs.
+ """
 authors="Sheloire"
 description='''
 Adds 9 Music Discs with national records:
