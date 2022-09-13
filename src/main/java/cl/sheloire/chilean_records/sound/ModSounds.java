@@ -18,6 +18,18 @@ public class ModSounds {
             registerSoundEvent("la_consentida");
     public static final RegistryObject<SoundEvent> LOS_VIEJOS_ESTANDARTES =
             registerSoundEvent("los_viejos_estandartes");
+    public static final RegistryObject<SoundEvent> UN_ANO_MAS =
+            registerSoundEvent("un_ano_mas");
+    public static final RegistryObject<SoundEvent> TREN_AL_SUR =
+            registerSoundEvent("tren_al_sur");
+    public static final RegistryObject<SoundEvent> FALSO_AMOR =
+            registerSoundEvent("falso_amor");
+    public static final RegistryObject<SoundEvent> CURAO_MANEJO_MEJOR =
+            registerSoundEvent("curao_manejo_mejor");
+    public static final RegistryObject<SoundEvent> LA_MEJICANA =
+            registerSoundEvent("la_mejicana");
+    public static final RegistryObject<SoundEvent> MORTAL_KUMBIAT =
+            registerSoundEvent("mortal_kumbiat");
 
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
