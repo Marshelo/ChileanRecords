@@ -1,7 +1,7 @@
 package cl.Sheloire.chilean_records;
 
-//import cl.Sheloire.chilean_records.item.ModItems;
-//import cl.Sheloire.chilean_records.sound.ModSounds;
+import cl.Sheloire.chilean_records.item.ModItems;
+import cl.Sheloire.chilean_records.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -16,7 +16,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(ChileanRecords.MOD_ID)
 public class ChileanRecords
 {
@@ -31,9 +30,9 @@ public class ChileanRecords
 
         modEventBus.addListener(this::commonSetup);
 
-//        ModItems.register(modEventBus);
+        ModItems.register(modEventBus);
 
-//        ModSounds.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

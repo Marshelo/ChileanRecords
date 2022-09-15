@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "music_disc_chilean_anthem",
+  "pattern": [
+    "O  ",
+    "BWW",
+    "RRR"
+  ],
+  "key": {
+    "O": {
+      "tag": "music_discs"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "chilean_records:music_disc_chilean_anthem"
+  }
+}
