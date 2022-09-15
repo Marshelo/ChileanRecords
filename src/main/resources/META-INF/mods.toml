@@ -1,16 +1,18 @@
 modLoader="javafml"
-loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[40,)"
 license="MIT"
-[[mods]] #mandatory
-modId="chilean_records" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="Chilean Discs" #mandatory
-logoFile="chilean_records.png" #optional
+[[mods]]
+modId="chilean_records"
+version="${file.jarVersion}"
+displayName="Chilean Discs"
+logoFile="chilean_records.png"
 credits="""
-Thanks to Javitoire for record the demo <3
-Thanks to Xarlord for help me to chose some themes.
-Thanks to my country for having this beautiful records.""" #optional
-authors="Sheloire" #optional
+
+
+ Thanks to Javitoire for record the demo <3
+ Thanks to Xarlord and Lusu for help with the songs.
+"""
+authors="Sheloire"
 description='''
 Adds 9 Music Discs with national records:
  1. Chilean National Anthem
