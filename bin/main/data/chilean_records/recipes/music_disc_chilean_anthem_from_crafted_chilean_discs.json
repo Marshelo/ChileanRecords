@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "music_disc_chilean_anthem",
+  "ingredients": [
+    {
+      "tag": "chilean_records:crafted_chilean_discs"
+    }
+  ],
+  "result": {
+    "item": "chilean_records:music_disc_chilean_anthem"
+  }
+}

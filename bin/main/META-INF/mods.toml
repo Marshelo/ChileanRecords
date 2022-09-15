@@ -1,30 +1,39 @@
 modLoader="javafml"
-loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-license="MIT"
-[[mods]] #mandatory
-modId="chilean_records" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="Chilean Discs" #mandatory
-logoFile="chilean_records.png" #optional
+loaderVersion="[43,)"
+license="All rights reserved"
+[[mods]]
+modId="chilean_records"
+version="${file.jarVersion}"
+displayName="Chilean Discs"
+#logoFile="chilean_records.png"
+authors="Sheloire"
 credits="""
-Thanks to Javitoire for record the demo <3
-Thanks to my country for having this beautiful records.""" #optional
-authors="Sheloire" #optional
-description='''
-Adds 3 Music Discs with national records:
- 1. Chilean Official Anthem.
- 2. Jaime Atria - La consentida.
- 3. Los 4 Cuartos - Los Viejos Estandartes.
-'''
-[[dependencies.chilean_records]]
-    modId="forge"
-    mandatory=true
-    versionRange="[40,)"
+
+
+ Thanks to Javitoire for record the demo <3
+ Thanks to Xarlord and Lusu for help with the songs.
+"""
+description="""
+Adds 9 Music Discs with national records:
+ 1. Chilean National Anthem
+ 2. La Consentida - Jaime Atria
+ 3. Los Viejos Estandartes - Los 4 Cuartos
+ 4. Un Año Más - La Sonora de Tommy Rey
+ 5. Tren al sur - Los Prisioneros
+ 6. Falso Amor - Los Picantes
+ 7. Curao Manejor Mejor - Los Mox
+ 8. La Mejicana - Tata Barahona
+ 9. Mortal Kumbiat - Leo Rey
+"""
+[[dependencies.chilean_records]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[43,)" #mandatory
     ordering="NONE"
     side="BOTH"
 [[dependencies.chilean_records]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2,1.19)"
+    versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"

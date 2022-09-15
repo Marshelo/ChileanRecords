@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "  O",
+    "  #"
+  ],
+  "key": {
+    "O": {
+      "item": "chilean_records:music_disc_chilean_anthem"
+    },
+    "#": {
+      "tag": "chilean_records:chilean_dyes"
+    }
+  },
+  "result": {
+    "item": "chilean_records:music_disc_curao_manejo_mejor"
+  }
+}
